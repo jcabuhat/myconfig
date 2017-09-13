@@ -4,3 +4,8 @@ spring:
   profiles: cloud
   
 message: Jeff only from cloud after refresh
+
+eureka:
+  instance:
+    hostname: company-jcabuhat.cfapps.io
+    nonSecurePort: 80
