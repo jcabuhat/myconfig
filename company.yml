@@ -1,23 +1,5 @@
-{
-  "name": "company",
-  "profiles": [
-    "profile"
-  ],
-  "label": null,
-  "version": null,
-  "state": null,
-  "propertySources": [
-    {
-      "name": "https://github.com/resilientscale/training-configuration.git/company.yml",
-      "source": {
-        "message": "Steve"
-      }
-    },
-    {
-      "name": "https://github.com/resilientscale/training-configuration.git/application.yml",
-      "source": {
-        "info.description": "Training configuration"
-      }
-    }
-  ]
-}
+---
+
+info:
+  message: Jeff
+  
