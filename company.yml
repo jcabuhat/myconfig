@@ -3,4 +3,4 @@
 spring:
   profiles: cloud
   
-message: Jeff
+message: Jeff only from cloud
