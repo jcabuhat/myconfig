@@ -4,8 +4,3 @@ spring:
   profiles: cloud
   
 message: Jeff from roster
-
-eureka:
-  instance:
-    hostname: roster-jcabuhat.cfapps.io
-    nonSecurePort: 80
