@@ -3,4 +3,4 @@
 spring:
   profiles: cloud
   
-message: Jeff only from cloud after refresh
+message: Jeff only from pcfdev
