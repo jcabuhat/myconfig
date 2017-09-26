@@ -3,4 +3,4 @@
 spring:
   profiles: cloud
   
-message: Jeff from roster
+message: Jeff from pcfdev roster
