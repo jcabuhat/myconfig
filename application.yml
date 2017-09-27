@@ -6,7 +6,7 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://euruser:eurpass@eurekasvr.local.cfapps.io/eureka
+      defaultZone: http://euruser:eurpass@eurekasvr.local.pcfdev.io/eureka
 ---
 
 
