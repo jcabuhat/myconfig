@@ -6,15 +6,3 @@ feign:
 security:
   basic:
     enabled: false
-  oauth2:
-    client:
-      clientId: ${vcap.services.githubauth.credentials.client_id}
-      clientSecret: ${vcap.services.githubauth.credentials.client_secret}
-      accessTokenUri: https://github.com/login/oauth/access_token
-      userAuthorizationUri: https://github.com/login/oauth/authorize
-      clientAuthenticationScheme: form
-      preEstablishedRedirectUri: https://${vcap.application.uris[0]}/login
-      registered-redirect-uri: https://${vcap.application.uris[0]}/login
-      use-current-uri: false
-    resource:
-      userInfoUri: https://api.github.com/user
